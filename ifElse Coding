@@ -1,0 +1,18 @@
+
+public class ifElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=20, y=3;
+		
+		if (x<y)
+		{
+			System.out.println("x is true, x is less than y");
+		}
+		else
+		{
+			System.out.println("x is false, x is greater than y");
+		}
+	}
+
+}
