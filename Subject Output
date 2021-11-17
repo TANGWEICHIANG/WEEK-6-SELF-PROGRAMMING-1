@@ -1,0 +1,15 @@
+Please enter number of subject : 
+2
+Please enter first subject : 
+MM
+Please enter first subject marks : 
+95
+Please enter second subject : 
+SC
+Please enter second subject marks : 
+80
+
+MM and SC passed
+MM's mark is higher than SC
+Average mark = 87.5
+Grade = A
