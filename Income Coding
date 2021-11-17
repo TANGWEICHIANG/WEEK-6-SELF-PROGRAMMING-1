@@ -1,0 +1,27 @@
+
+public class Income {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double amount = 500;
+		double balance = 1500;
+		//single statement
+        if  ((amount <= 1000.0) && (amount <= balance))  
+            balance = balance - amount;
+        System.out.println("1. Acct new balance = " + balance); //1500-500
+        	
+        //block statement
+        if  ((amount <= 1000.0) && (amount <= balance))
+        {   
+            balance = balance - amount;
+            System.out.println("2. Acct new balance = " + balance); //1000-500
+        }
+        
+        if  ((amount <= 1000.0) && (amount <= balance))
+        {
+        	balance += 500;
+        	 System.out.println("3. Acct new balance = " + balance); //500+500
+        }
+	}
+
+}
